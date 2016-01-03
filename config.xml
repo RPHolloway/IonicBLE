@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.dylonhughescreative.p66wink" version="0.0.0">
+<widget id="com.dylonhughescreative.ionicBLE" version="0.0.0">
   <name>IonicBLE</name>
   <description>
         An Ionic project to test out bluetooth capability
