@@ -23,7 +23,9 @@
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="ShowSplashScreenSpinner" value="false" />  
     <preference name="FadeSplashScreen" value="true" />  
-    <preference name="FadeSplashScreenDuration" value="1.0" />  
+    <preference name="FadeSplashScreenDuration" value="1.0" />
+
+    <plugin name="cordova-plugin-bluetooth-serial"></plugin>
     
 	<icon src="icon.png"/>
 	<splash src="splash.png"/>
