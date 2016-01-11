@@ -21,7 +21,6 @@
   <preference name="FadeSplashScreenDuration" value="1.0"/>
   <plugin name="org.apache.cordova.splashscreen"/>
   <plugin name="cordova-plugin-ble-central" source="npm"/>
-  <plugin name="cordova-plugin-bluetooth-serial"/>
   <icon src="resources\ios\icon\icon-small@3x.png"/>
   <splash src="splash.png"/>
   <platform name="android"/>
