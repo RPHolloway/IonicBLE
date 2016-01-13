@@ -10,19 +10,7 @@
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="phonegap-version" value="cli-5.2.0"/>
-  <preference name="orientation" value="portrait"/>
-  <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="AutoHideSplashScreen" value="true"/>
-  <preference name="SplashScreenDelay" value="10000"/>
-  <preference name="ShowSplashScreenSpinner" value="false"/>
-  <preference name="FadeSplashScreen" value="true"/>
-  <preference name="FadeSplashScreenDuration" value="1.0"/>
-  <plugin name="org.apache.cordova.splashscreen"/>
-  <plugin name="cordova-plugin-bluetooth-serial"/>
-  <plugin name="cordova-plugin-ble-central" source="npm"/>
-  <icon src="resources\ios\icon\icon-small@3x.png"/>
+  <icon src="icon.png"/>
   <splash src="splash.png"/>
   <platform name="android"/>
   <platform name="ios">

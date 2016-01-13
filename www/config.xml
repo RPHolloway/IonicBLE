@@ -22,7 +22,7 @@
   <plugin name="org.apache.cordova.splashscreen"/>
   <plugin name="cordova-plugin-bluetooth-serial"/>
   <plugin name="cordova-plugin-ble-central" source="npm"/>
-  <icon src="resources\ios\icon\icon-small@3x.png"/>
+  <icon src="icon.png"/>
   <splash src="splash.png"/>
   <platform name="android"/>
   <platform name="ios">
