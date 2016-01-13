@@ -11,7 +11,7 @@
   <access origin="*"/>
   <preference name="phonegap-version" value="cli-5.2.0"/>
   <plugin name="cordova-plugin-bluetooth-serial"/>
-  <plugin name="cordova-plugin-ble-central" source="npm"/>
+  <plugin name="cordova-plugin-ble-central"/>
   <icon src="icon.png"/>
   <platform name="android"/>
   <platform name="ios">
