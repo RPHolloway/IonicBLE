@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.dylonhughescreative.p66wink" version="0.0.0">
-  <name>P66 WINK</name>
+<widget id="com.dylonhughescreative.ionicBLE" version="0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="1">
+  <name>IonicBLE</name>
   <description>
-        This app shows basic safety flash cards.
+        An Ionic project to test out bluetooth capability for both iOS and Android.
     </description>
-  <author email="dev@dylonhughescreative.com" href="http://dylonhughescreative.com">
-        Hugh Dillon and Rick Holloway
+  <author email="dev@M2M.com">
+        Rick Holloway
     </author>
-  <preference name="phonegap-version" value="cli-5.2.0"/>
   <content src="index.html"/>
   <access origin="*"/>
-  <icon src="resources\ios\icon\icon-small@3x.png"/>
-  <splash src="splash.png"/>
+  <preference name="phonegap-version" value="cli-5.2.0"/>
+  <plugin name="cordova-plugin-bluetooth-serial"/>
+  <plugin name="cordova-plugin-ble-central" source="npm"/>
+  <icon src="icon.png"/>
   <platform name="android"/>
   <platform name="ios">
-    <splash src="resources/ios/splash/Default-568h@2x~iphone.png" width="640" height="1136"/>
-    <splash src="resources/ios/splash/Default-667h.png" width="750" height="1334"/>
-    <splash src="resources/ios/splash/Default-736h.png" width="1242" height="2208"/>
-    <splash src="resources/ios/splash/Default-Landscape-736h.png" width="2208" height="1242"/>
-    <splash src="resources/ios/splash/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
-    <splash src="resources/ios/splash/Default-Landscape~ipad.png" width="1024" height="768"/>
-    <splash src="resources/ios/splash/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
-    <splash src="resources/ios/splash/Default-Portrait~ipad.png" width="768" height="1024"/>
-    <splash src="resources/ios/splash/Default@2x~iphone.png" width="640" height="960"/>
-    <splash src="resources/ios/splash/Default~iphone.png" width="320" height="480"/>
     <icon src="resources\ios\icon\icon.png" width="57" height="57"/>
     <icon src="resources\ios\icon\icon@2x.png" width="114" height="114"/>
     <icon src="resources\ios\icon\icon-40.png" width="40" height="40"/>
