@@ -2,10 +2,10 @@
 <widget id="com.dylonhughescreative.ionicBLE" version="0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="1">
   <name>IonicBLE</name>
   <description>
-        An Ionic project to test out bluetooth
+        An Ionic project to test out bluetooth capability for both iOS and Android.
     </description>
   <author email="dev@M2M.com">
-        Rick  Holloway
+        Rick Holloway
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -14,6 +14,13 @@
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
+  <preference name="AutoHideSplashScreen" value="true"/>
+  <preference name="SplashScreenDelay" value="10000"/>
+  <preference name="ShowSplashScreenSpinner" value="false"/>
+  <preference name="FadeSplashScreen" value="true"/>
+  <preference name="FadeSplashScreenDuration" value="1.0"/>
+  <plugin name="org.apache.cordova.splashscreen"/>
+  <plugin name="cordova-plugin-ble-central" source="npm"/>
   <icon src="resources\ios\icon\icon-small@3x.png"/>
   <splash src="splash.png"/>
   <platform name="android"/>
