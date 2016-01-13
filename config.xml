@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.dylonhughescreative.ionicble" version="0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="1">
+<widget id="com.dylonhughescreative.ionicble" version="0.0.0">
   <name>IonicBLE</name>
   <description>
         An Ionic project to test out bluetooth capability for both iOS and Android.
@@ -10,8 +10,6 @@
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="phonegap-version" value="cli-5.2.0"/>
-  <plugin name="cordova-plugin-bluetooth-serial"/>
-  <plugin name="cordova-plugin-ble-central" source="npm"/>
   <icon src="icon.png"/>
   <platform name="ios">
     <icon src="resources\ios\icon\icon.png" width="57" height="57"/>
