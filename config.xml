@@ -5,7 +5,7 @@
         An Ionic project to test out bluetooth
     </description>
   <author email="dev@M2M.com">
-        Rick Holloway
+        Rick  Holloway
     </author>
   <content src="index.html"/>
   <access origin="*"/>
