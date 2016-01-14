@@ -3,10 +3,10 @@
   <name>IonicBLE</name>
   <description>
         An Ionic project to test out bluetooth capability for both iOS and Android.
-    </description>
+  </description>
   <author email="dev@M2M.com" href="http://dylonhughescreative.com">
         Rick Holloway
-    </author>
+  </author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="phonegap-version" value="cli-5.2.0"/>
